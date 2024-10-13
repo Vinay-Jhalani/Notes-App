@@ -12,7 +12,7 @@ function MainPage({ logout }) {
   const [newNote, setNewNote] = useState("");
   const [showNewNote, setShowNewNote] = useState(false);
   const [editingNoteId, setEditingNoteId] = useState(null);
-  const username = localStorage.getItem("username") || "Nitesh";
+  const username = localStorage.getItem("username") || "Vinay";
 
   useEffect(() => {
     fetchNotes();
